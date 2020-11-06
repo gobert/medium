@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "medium/h3"
+version = "1.0.0"
+description = "Tutorial how to use h3."
+
+readme = 'README.md'
+repository = "https://github.com/gobert/medium"
+
+authors = [
+    "Geoffroy GOBERT <gobertgeoffroy@gmail.com>",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9"  # Compatible python versions must be declared here
+
+[tool.black]
+line-length = 79
