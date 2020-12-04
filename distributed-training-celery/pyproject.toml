@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "distributed-training-with-celery"
+version = "0.0.1"
+description = "Distribute the training of several model with celery"
+
+readme = 'README.md'  # Markdown files are supported
+repository = "https://github.com/gobert/medium"
+
+authors = ["Gobert"]
+
+[tool.poetry.dependencies]
+python = ">=3.8"  # Compatible python versions must be declared here
+
+# task manager
+celery = "*"
+redis = "*"
+
+[tool.poetry.dev-dependencies]
+# code syntax
+black = "*"
+flake8 = "*"
+pylint = "*"
+
+[tool.black]
+line-length = 79
