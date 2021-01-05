@@ -1,5 +1,7 @@
 # Distributed training with celery
 
+Code for the article [How to scale the training of several models?](https://gobert.medium.com/how-to-scale-the-training-of-several-models-64180480ca3d#eba2-408b17077985-reply)
+
 
 # Installation
 * You need pyenv and poetry installed. Then: `poetry install`
